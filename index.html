@@ -31,32 +31,32 @@
       </nav>
 
       <div class="row">
-        <div class="col-sm-4">          
+        <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
               <form>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">City Search</label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                  ></textarea>
+                  <label for="exampleFormControlTextarea1">Search</label>
+                  
+                  <textarea class="form-control" id="lat"></textarea>
+                  <label>Latitude</label>
+
+                  <textarea class="form-control" id="long"></textarea>
+                  <label>Longitude</label>
                 </div>
+                <button type="submit" id="submit">Submit</button>
               </form>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-8">          
-          <div class="card" id="daily-info">
-          <div class="card-body">
-            <div class="city" id="city"></div>
-            <div class="wind" id="wind"></div>
-            <div class="humidity" id="humidity"></div>
-            <div class="temp" id="temp"></div>
-            <div class="tempF"></div>
-            </div>
-          </div>
+        <div class="col-sm-8">
+          <div class="card" id="daily-info"></div>
+          <div class="card" id="city"></div>
+          <div class="card" id="wind"></div>
+          <div class="card" id="humidity"></div>
+          <div class="card" id="temp"></div>
+          <div class="card" id="tempF"></div>
         </div>
       </div>
     </div>
